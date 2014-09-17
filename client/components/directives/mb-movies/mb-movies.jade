@@ -1,0 +1,5 @@
+div(ng-repeat='movie in movies.movies')
+  h2 {{movie.title}}
+  img(src='{{movie.posters.thumbnail}}')
+  h4 {{movie.mpaa_rating}} - Critics' Rating: {{movie.ratings.critics_score}}
+  p {{movie.synopsis}}

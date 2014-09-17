@@ -4,10 +4,15 @@ html(ng-app='directives-demo', lang='en')
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    title MEAN Template
+    title Directives Demo
     link(href='/vendor/bootstrap/dist/css/bootstrap.css', rel='stylesheet')
     link(href='/vendor/fontawesome/css/font-awesome.css', rel='stylesheet')
     link(href='/vendor/toastr/toastr.css', rel='stylesheet')
+    link(href='/components/directives/mb-greeting/mb-greeting.css', rel='stylesheet')
+    link(href='/components/directives/mb-clock/mb-clock.css', rel='stylesheet')
+    link(href='/components/directives/mb-weather/mb-weather.css', rel='stylesheet')
+    link(href='/components/directives/mb-movies/mb-movies.css', rel='stylesheet')
+    link(href='/components/directives/mb-stock/mb-stock.css', rel='stylesheet')
     link(href='/index.css', rel='stylesheet')
   body
     include nav
@@ -33,5 +38,10 @@ html(ng-app='directives-demo', lang='en')
     script(src='/views/logout/logout.js')
     script(src='/components/factories/home.js')
     script(src='/components/factories/user.js')
+    script(src='/components/directives/mb-greeting/mb-greeting.js')
+    script(src='/components/directives/mb-clock/mb-clock.js')
+    script(src='/components/directives/mb-stock/mb-stock.js')
+    script(src='/components/directives/mb-weather/mb-weather.js')
+    script(src='/components/directives/mb-movies/mb-movies.js')
     script(src='/components/factories/http-interceptor.js')
 
